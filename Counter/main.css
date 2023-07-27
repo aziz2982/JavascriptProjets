@@ -1,5 +1,25 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.displayFlex{
+    display: flex;
+    gap: 10px;
+}
+
 #countLabel{
-    display: block;
-    text-align: center;
     font-size: 50px;
+}
+
+#decraseBtn,
+#resetBtn,
+#increase{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
