@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+input{
+    padding: 20px 10px;
+    outline: none;
+    width: 250px;
+    height: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+ button{
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+ }
