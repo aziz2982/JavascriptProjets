@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Javascript Crud</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="container">
+        <h2>Javascript Crud</h2>
+        <div>
+            <div class="main">
+                <div class="section">
+                    <div class="form">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Ismingizni kiriting">
+                    </div>
+                    <div class="form">
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" placeholder="Yoshingizni Kiriting">
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="form">
+                        <label for="name">Address</label>
+                        <input type="text" name="address" id="address" placeholder="Manzilingizni Kiriting">
+                    </div>
+                    <div class="form">
+                        <label for="name">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email Kiriting">
+                    </div>
+                </div>
+
+                <div class="btnContainer">
+                    <button class="btn btns" id="Submit" onclick="AddData()">Add</button>
+                </div>
+                <div>
+                    <button class="btns btnU" id="UpDate">UpDate</button>
+                </div> 
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div>
+                <table class="table" border="2" id="crudTable" style="border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Address</th>
+                            <th>Email</th>
+                            <th>Acctions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
